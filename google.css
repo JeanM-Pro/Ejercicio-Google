@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav-enlace{
     display: inline-block;
     color: rgb(32, 30, 30);
@@ -87,4 +88,12 @@ nav{
     justify-content: center;
     margin-top: 28px;
     height: 330px;
+=======
+P{
+    color: aqua;
+}
+
+.red{
+    color: red;
+>>>>>>> origin
 }
