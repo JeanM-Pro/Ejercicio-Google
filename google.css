@@ -47,14 +47,28 @@ nav{
     padding-left: 2px;
 }
 
+.papuchi{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.lupa{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 34px;
+}
+
 .cuadro{
-    display: block;
+    display: inline-block;
     margin:auto;
     width: 575px;
     height: 43px;
     margin-top: 24px;
     border-radius: 1.5rem;
     border: 1px solid rgb(231, 226, 226);
+    position: static;
 }
 
 .cuadro:hover{
@@ -72,17 +86,38 @@ nav{
     background-color: #f8f9fa;
     text-decoration: none;
     color: #3c4043;
-    border-radius: 0.4rem;  
+    border-radius: 0.4rem;
 }
 
 .cuadritos:hover{
-    /* border: 1px solid #d1d6d6; */
-    box-shadow: 1px 1px 5px #d1d6d6;
+    border: 1px solid #d1d6d6;
+    box-shadow: 1px 1px 3px #d1d6d6;
 }
 
 .cuadritos-padre{
     display: flex;
     justify-content: center;
     margin-top: 28px;
-    height: 330px;
+    box-sizing: border-box;
+}
+
+.ofrecido{
+    text-align:center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+}
+
+.espanol{
+color: darkblue;
+text-decoration: none;
+}
+
+.colombia{
+    background: rgb(231, 228, 228);
+}
+
+.padre-pie{
+
 }
