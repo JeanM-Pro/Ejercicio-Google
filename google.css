@@ -105,6 +105,10 @@ nav{
     box-sizing: border-box;
 }
 
+.mainclase{
+    height: 100%;
+}
+
 .ofrecido{
     text-align:center;
     padding-top: 15px;
